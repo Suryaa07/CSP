@@ -58,8 +58,6 @@ public class CSP_CryptArithmetic {
 				digits.add(i);
 				solveProblem(characters);
 				digits.remove(digits.size()-1);
-				
-				//Mark it as non visited for a next recursion or return
 				isDigitVisited[i] = false;
 				
 			}
